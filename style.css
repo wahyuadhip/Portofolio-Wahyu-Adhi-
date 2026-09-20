@@ -210,6 +210,70 @@ main.reveal{transition-duration:.9s}
     .reveal{transition:none}
 }
 
+/* Mobile layout polish */
+@media (max-width: 650px){
+    html{scroll-padding-top:76px}
+    body{padding-top:72px;overflow-x:hidden}
+    header{padding:14px 16px;gap:10px}
+    header .brand{font-size:14px;white-space:nowrap}
+    nav{gap:8px;min-width:0}
+    nav ul{gap:10px;flex-wrap:wrap;justify-content:flex-end;font-size:11px;line-height:1.2}
+    nav a::after{bottom:-4px}
+    .theme-toggle{flex:0 0 auto;padding:6px 8px;font-size:14px}
+
+    main{min-height:calc(100svh - 72px);padding:48px 18px 56px}
+    .left{width:100%;max-width:100%}
+    .left h1{font-size:clamp(31px,9vw,42px);line-height:1.08;overflow-wrap:anywhere}
+    .left h2{font-size:clamp(25px,7vw,34px);margin:16px 0;min-height:34px}
+    .left .subtitle,.subtitle{font-size:16px !important}
+    .cta{width:100%;gap:10px;margin-top:24px !important}
+    .btn{min-height:44px;padding:10px 14px;display:inline-flex;align-items:center;justify-content:center}
+    .socials{width:100%;gap:8px;margin-top:18px !important;flex-wrap:wrap}
+    .socials a{min-height:42px;padding:8px 10px;font-size:12px}
+
+    .section{padding:36px 18px}
+    .section-title{padding:0;margin-bottom:18px;font-size:16px}
+    .about-inner{padding:22px 18px;gap:22px}
+    .about-name{font-size:25px}
+    .about-bio{font-size:14px;line-height:1.7}
+    .about-right{width:100%;flex-basis:auto}
+    .about-photo{width:min(190px,70vw)}
+    .career-card{padding:26px 0 0;gap:24px}
+    .career-heading{font-size:14px !important}
+    .career-item{gap:10px;padding:12px}
+    .career-logo{flex-basis:52px;width:52px;height:52px}
+    .career-item h4{font-size:13px}
+    .career-item p,.career-item span{font-size:11px}
+
+    .portfolio-section{padding:36px 18px 56px}
+    .portfolio-inner h2{margin-bottom:22px}
+    .portfolio-tabs{top:72px;gap:6px;margin:0 -2px;padding:7px 0}
+    .portfolio-tab{min-height:42px;padding:7px 4px;font-size:11px;line-height:1.2}
+    .portfolio-panels{margin-top:14px}
+    .portfolio-card h3{font-size:14px}
+    .portfolio-card p{font-size:12px}
+    .android-media{height:220px}
+    .stack-list{gap:10px}
+    .stack-item{min-height:100px;padding:12px 8px}
+    .stack-item i{font-size:28px}
+
+    .contact-section{min-height:calc(100svh - 72px);padding:52px 18px 56px}
+    .contact-inner h2{font-size:clamp(32px,10vw,46px);margin-bottom:10px}
+    .contact-inner h3{font-size:14px;margin-bottom:30px}
+    .contact-link{min-height:92px;padding:16px 18px;gap:16px}
+    .contact-link span{font-size:14px}
+}
+
+@media (max-width: 380px){
+    body{padding-top:108px}
+    header{flex-wrap:wrap;padding:12px 14px}
+    nav{width:100%;justify-content:space-between}
+    nav ul{gap:12px;font-size:11px}
+    main{min-height:calc(100svh - 108px)}
+    .portfolio-tabs{top:108px}
+    .contact-section{min-height:calc(100svh - 108px)}
+}
+
 /* Ensure photo has no boxed shadow or border (override duplicates) */
 .photo{
     box-shadow:none !important;
