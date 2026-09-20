@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Portofolio - Wahyu Adhi Prasetyo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="brand">Wahyu Adhi.dev</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Portofolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+        
+        </nav>
+        
+    </header>
+
+    <main id="home">
+        <div class="left">
+            <h1>Wahyu Adhi Prasetyo</h1>
+            <h2 id="role-rotator" aria-live="polite">Web Developer</h2>
+            <div class="subtitle">Informatics Engineering</div>
+
+            <div class="cta">
+                <a class="btn" href="#project">Portofolio</a>
+                <a class="btn" href="#contact">Contact</a>
+            </div>
+
+            <div class="socials">
+                <a href="https://github.com/wahyuadhip" title="Github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Github</a>
+                <a href="https://www.linkedin.com/in/wahyu-adhi-b1b888357?utm_source=share_via&utm_content=profile&utm_medium=member_ios" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                <a href="https://www.instagram.com/wahyuadhi_p?stkn=MXU4Nmlld25nNjV5NQ%3D%3D&utm_source=qr" title="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+
+        <!-- photo removed per request -->
+    </main>
+
+    <section id="about" class="section about-section">
+        <h2 class="section-title">ABOUT</h2>
+        <div class="container about-inner">
+            <div class="about-left">
+                <div class="about-label">ABOUT ME</div>
+                <h3 class="about-name">Wahyu<br>Adhi<br>Prasetyo</h3>
+                <p class="about-bio">Fresh Graduate Informatics Engineering Universitas Dian Nuswantoro yang berfokus pada pengembangan teknologi, khususnya web development, UI/UX Design dan Android Development. Saya terbiasa merancang user interface yang mudah digunakan serta membangun aplikasi berbasis web dan android yang menghadirkan pengalaman digital yang menarik.</p>
+                <a id="view-resume" class="btn" href="files/resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="View Resume">View Resume</a>
+            </div>
+            <div class="about-right">
+                <div class="about-photo-wrap">
+                    <img class="about-photo" src="images/WhatsApp_Image_2026-09-18_at_06.00.14-removebg-preview.png" alt="Wahyu Adhi Prasetyo" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1595152772835-219674b2a8a6?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=0e9c3bb4f4b7ff2f1b3a3f1f8a6d4b2a'" />
+                    <blockquote class="about-quote">Success is not final, failure is not fatal: it is the courage to continue that counts.</blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="container career-card">
+            <div class="career-column">
+                <h3 class="career-heading">EDUCATIONS</h3>
+                <article class="career-item">
+                    <div class="career-logo career-logo-image">
+                        <img src="images/Logo_udinus1.jpg" alt="Logo Universitas Dian Nuswantoro">
+                    </div>
+                    <div>
+                        <h4>Universitas Dian Nuswantoro</h4>
+                        <p>Informatics Engineering | Faculty Of Computer Science</p>
+                        <span>2022 - 2026</span>
+                    </div>
+                </article>
+            </div>
+            <div class="career-column">
+                <h3 class="career-heading">Experience</h3>
+                <article class="career-item">
+                    <div class="career-logo career-logo-image">
+                        <img src="images/Logo_Akademi_Kepolisian.png" alt="Logo Akademi Kepolisian">
+                    </div>
+                    <div>
+                        <h4>Akademi Kepolisian</h4>
+                        <p>Internship</p>
+                        <span>2025</span>
+                    </div>
+                </article>
+                <article class="career-item">
+                    <div class="career-logo career-logo-image">
+                        <img src="images/ChatGPT%20Image%2018%20Sep%202026,%2017.46.33.png" alt="Logo DK Rent Car">
+                    </div>
+                    <div>
+                        <h4>DKRentCar</h4>
+                        <p>Operational Admin &amp; Yard Supervisor</p>
+                        <span>2023 - 2025</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="project" class="portfolio-section">
+        <div class="portfolio-inner">
+            <h2>PORTOFOLIO</h2>
+            <div class="portfolio-tabs" role="tablist" aria-label="Portfolio categories">
+                <button class="portfolio-tab active" type="button" role="tab" aria-selected="true" aria-controls="project-panel" data-panel="project-panel">PROJECT</button>
+                <button class="portfolio-tab" type="button" role="tab" aria-selected="false" aria-controls="certificate-panel" data-panel="certificate-panel">CERTIFICATE</button>
+                <button class="portfolio-tab" type="button" role="tab" aria-selected="false" aria-controls="stack-panel" data-panel="stack-panel">Tech Stack</button>
+            </div>
+            <div class="portfolio-panels">
+                <div id="project-panel" class="portfolio-panel active-panel" role="tabpanel">
+                    <article class="portfolio-card">
+                        <div class="android-media" aria-label="Screenshot aplikasi Android Monitoring Bank Sampah">
+                            <img src="images/android%201.jpeg" alt="Android 1 - Dashboard">
+                            <img src="images/android%202.jpeg" alt="Android 2 - Laporan">
+                            <img src="images/android%203.jpeg" alt="Android 3 - Pengatur Lokasi">
+                            <img src="images/android%204.jpeg" alt="Android 4 - Menu aplikasi">
+                            <img src="images/android%205.jpeg" alt="Android 5 - Notifikasi">
+                        </div>
+                        <h3>Monitoring Bank Sampah Android App</h3>
+                        <p>Aplikasi monitoring bank sampah untuk memantau lokasi, laporan, dan kondisi sampah yang terhubung dengan alat IoT sebagai pemantauan.</p>
+                    </article>
+                    <article class="portfolio-card">
+                        <img src="images/website.png" alt="Website Monitoring Bank Sampah">
+                        <h3>Monitoring Bank Sampah Website</h3>
+                        <p>Website monitoring bank sampah untuk memantau data lokasi dan kondisi sampah secara digital yang terhubung langsung dengan IoT sebagai alat pemantauan.</p>
+                    </article>
+                    <article class="portfolio-card">
+                        <img src="images/WhatsApp%20Image%202026-09-18%20at%2018.50.38.jpeg" alt="Alat Pemantauan Kepenuhan Bak Sampah">
+                        <h3>Alat Pemantauan Kepenuhan Bak Sampah</h3>
+                        <p>Alat sistem pemantauan kepenuhan bak sampah ini adalah alat yang terhubung dengan Internet of Things yang sudah terintegrasi dengan website dan aplikasi.</p>
+                    </article>
+                </div>
+                <div id="certificate-panel" class="portfolio-panel" role="tabpanel" hidden>
+                    <div class="certificate-gallery">
+                        <figure class="certificate-card">
+                            <img src="files/Sertifikat%20TOEFL.jpeg" alt="Sertifikat TOEFL">
+                            <figcaption>Sertifikat TOEFL</figcaption>
+                        </figure>
+                        <figure class="certificate-card">
+                            <img src="files/Sertifikat%20Kompetensi.png" alt="Sertifikat Kompetensi">
+                            <figcaption>Sertifikat Kompetensi</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div id="stack-panel" class="portfolio-panel" role="tabpanel" hidden>
+                    <div class="stack-list">
+                        <div class="stack-item"><i class="fab fa-html5" aria-hidden="true"></i><span>HTML5</span></div>
+                        <div class="stack-item"><i class="fab fa-css3-alt" aria-hidden="true"></i><span>CSS3</span></div>
+                        <div class="stack-item"><i class="fab fa-js" aria-hidden="true"></i><span>JavaScript</span></div>
+                        <div class="stack-item"><i class="fab fa-android" aria-hidden="true"></i><span>Android</span></div>
+                        <div class="stack-item"><i class="fab fa-figma" aria-hidden="true"></i><span>Figma</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-inner">
+            <h2>Let's Connect</h2>
+            <h3>Find Me On</h3>
+            <div class="contact-links">
+                <a class="contact-link" href="mailto:wahyuadhi35@gmail.com">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                    <span>wahyuadhi35@gmail.com</span>
+                </a>
+                <a class="contact-link" href="https://www.instagram.com/wahyuadhi_p?stkn=MXU4Nmlld25nNjV5NQ%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                    <span>wahyuadhi_p</span>
+                </a>
+                <a class="contact-link" href="https://www.linkedin.com/in/wahyu-adhi-b1b888357?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_ios" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                    <span>Wahyu Adhi</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    </body>
+</html>
