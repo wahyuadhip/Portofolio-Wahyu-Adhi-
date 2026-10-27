@@ -1,5 +1,5 @@
-Place your resume PDF here with the filename `resume.pdf`.
+The resume PDF is `CV_WAHYU ADHI.pdf`.
 
-The site links to `files/resume.pdf`. If you want a different filename, update the `href` in index.html (`<a id="view-resume">`).
+The site links to `files/CV_WAHYU%20ADHI.pdf`. If you rename the PDF, update the `href` in `index.html` (`<a id="view-resume">`).
 
-For best compatibility, use a standard PDF and name it exactly `resume.pdf`.
+Keep the PDF in this folder so the resume link works after deployment.
